@@ -1,3 +1,5 @@
+import java.util.ArrayList;
+
 public class Classmate {
 
     private String name;
@@ -26,7 +28,7 @@ public class Classmate {
     public void passPotato(Potato potato, ClassList classlist, int number){
 
         if(number == 0) {
-            System.out.println("The End");
+            System.out.println( potato.getPotato().get(potato.getPotato().size() - 1) + " HOT POTATO!!!!");
         } else if(number <= 10 && number > 0){
             int newNumber = number - 1;
             Potato newPotato = potato;

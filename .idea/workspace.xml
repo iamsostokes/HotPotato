@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a078b495-dc23-4da7-9429-c779942bda0f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Classmate.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ClassList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/HotPotatoDemo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -41,7 +41,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/Classmate.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="135">
@@ -57,6 +57,27 @@
                 <element signature="e#415#416#0" expanded="true" />
                 <element signature="e#465#466#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/ClassList.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="291">
+              <caret line="29" lean-forward="true" selection-start-line="29" selection-end-line="29" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/HotPotatoDemo.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="75">
+              <caret line="5" column="41" selection-start-line="5" selection-start-column="41" selection-end-line="5" selection-end-column="41" />
             </state>
           </provider>
         </entry>
@@ -92,6 +113,8 @@
         <option value="$PROJECT_DIR$/src/main/java/Potato.java" />
         <option value="$PROJECT_DIR$/src/test/java/PotatoTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/Classmate.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ClassList.java" />
+        <option value="$PROJECT_DIR$/src/main/java/HotPotatoDemo.java" />
       </list>
     </option>
   </component>
@@ -145,7 +168,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1550854016046" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1550854928384" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -171,7 +194,14 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.PotatoTest.addNameToPotato">
+  <component name="RunManager" selected="Application.HotPotatoDemo">
+    <configuration name="HotPotatoDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="HotPotatoDemo" />
+      <module name="com.detroitlabs.hotpotato.main" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="PotatoTest.addNameToPotato" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="com.detroitlabs.hotpotato.test" />
       <option name="PACKAGE_NAME" value="" />
@@ -194,6 +224,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.HotPotatoDemo" />
         <item itemvalue="JUnit.PotatoTest.addNameToPotato" />
         <item itemvalue="JUnit.PotatoTest.printPotatoDetails" />
       </list>
@@ -209,7 +240,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1550850929103</updated>
-      <workItem from="1550850930519" duration="3081000" />
+      <workItem from="1550850930519" duration="3966000" />
     </task>
     <servers />
   </component>
@@ -226,9 +257,12 @@
     <history-entry file="PotatoTest_addNameToPotato - 2019.02.22 at 11h 30m 39s.xml">
       <configuration name="PotatoTest.addNameToPotato" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="PotatoTest_addNameToPotato - 2019.02.22 at 11h 58m 04s.xml">
+      <configuration name="PotatoTest.addNameToPotato" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="3081000" />
+    <option name="totallyTimeSpent" value="3966000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="66" y="46" width="1226" height="808" extended-state="0" />
@@ -239,10 +273,10 @@
       <window_info id="Capture Tool" />
       <window_info id="UI Designer" />
       <window_info id="Favorites" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Build" weight="0.32960895" />
-      <window_info anchor="bottom" id="Terminal" visible="true" weight="0.32960895" />
+      <window_info anchor="bottom" id="Terminal" weight="0.32960895" />
       <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
       <window_info anchor="bottom" id="Messages" />
@@ -250,7 +284,7 @@
       <window_info anchor="bottom" id="Version Control" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32960895" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32960895" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -313,6 +347,23 @@
             <element signature="e#415#416#0" expanded="true" />
             <element signature="e#465#466#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ClassList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="291">
+          <caret line="29" lean-forward="true" selection-start-line="29" selection-end-line="29" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/HotPotatoDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="41" selection-start-line="5" selection-start-column="41" selection-end-line="5" selection-end-column="41" />
         </state>
       </provider>
     </entry>

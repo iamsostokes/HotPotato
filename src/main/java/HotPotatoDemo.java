@@ -3,14 +3,11 @@ public class HotPotatoDemo {
     public static void main(String[] args) {
 
     ClassList classList = new ClassList();
-        classList.printClassListDetails();
+    Potato potato = new Potato();
 
-        classList.removeClassmate("Joe");
+    Classmate firstClassmateWithPotato = classList.getRandomClassmate();
+        firstClassmateWithPotato.passPotato(potato, classList, 10);
 
-        classList.printClassListDetails();
-
-       Classmate randomClassmate = classList.getRandomClassmate();
-       randomClassmate.printClassmateDetails();
 
     }
 }

@@ -23,15 +23,30 @@ public class Classmate {
         return currentPotato;
     }
 
-    public void setCurrentPotato(Potato currentPotato) {
-        this.currentPotato = currentPotato;
+    public void passPotato(Potato potato, ClassList classlist, int number){
+
+        if(number == 0) {
+            System.out.println("The End");
+        } else if(number <= 10 && number > 0){
+            int newNumber = number - 1;
+            Potato newPotato = potato;
+            ClassList classList = classlist;
+
+            newPotato.addNameToPotato(this.name);
+            newPotato.printPotatoDetails();
+            Classmate randomClassmate = getRandomClassmate(classlist);
+            randomClassmate.passPotato(newPotato, classlist, newNumber);
+        }  else {
+            System.out.println("___________________");
+        }
+
     }
 
-    //    public void passPotato(Potato potato){
-//        this.currentPotato = potato;
-//        this.currentPotato.addNameToPotato(this.name);
-//    }
 
+    public Classmate getRandomClassmate(ClassList classList){
+        return classList.getRandomClassmate();
+
+    }
 
 
 

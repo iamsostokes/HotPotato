@@ -1,5 +1,6 @@
 import java.util.ArrayList;
 import java.util.Arrays;
+import java.util.Random;
 
 public class ClassList {
 
@@ -19,13 +20,22 @@ public class ClassList {
         }
     }
 
-    private void removeClassmate(String name){
+    public void removeClassmate(String name){
 
         for(int i = 0; i < classList.size(); i++){
             if(classList.get(i).getName().equals(name)){
                 classList.remove(i);
             }
         }
+    }
+
+    public Classmate getRandomClassmate(){
+        Random random = new Random();
+        int randomNumber = random.nextInt(classList.size());
+        if(randomNumber == classList.size()) {
+            randomNumber -= 1;
+        }
+        return classList.get(randomNumber);
     }
 
     public void printClassListDetails(){

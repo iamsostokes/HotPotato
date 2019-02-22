@@ -7,6 +7,10 @@ public class Classmate {
         this.name = name;
     }
 
+    public void printClassmateDetails() {
+        System.out.println("The classmate name is " + name + ". \n");
+    }
+
     public String getName() {
         return name;
     }
